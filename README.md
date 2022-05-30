@@ -10,6 +10,8 @@ CodeFirstGirls
 https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 <ul><a href="https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">Loop Exercise</a></ul>
 
+https://www.practicepython.org/
+
 <b>FreeCodeCamp</b>
 
 <ul>
