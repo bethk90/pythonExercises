@@ -6,6 +6,10 @@ I will use this to store code snippets and track my progress.
 Links and resources:
 
 CodeFirstGirls
+<ul>
+<li>&#10003; <a href = "cfg-homework-week1.py">Week 1 Homework</a>
+<li>&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a>
+</ul>
 
 https://www.practicepython.org/
 <ul>
