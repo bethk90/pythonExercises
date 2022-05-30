@@ -1,6 +1,6 @@
 '''
 
-Exercise 2: Print the following pattern
+Print the following pattern
 Write a program to print the following number pattern using a loop.
 
 1

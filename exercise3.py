@@ -1,5 +1,5 @@
 '''
-Exercise 3: Calculate the sum of all numbers from 1 to a given number
+Calculate the sum of all numbers from 1 to a given number
 
 Write a program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
 
