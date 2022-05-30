@@ -11,12 +11,53 @@ https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 <ul><a href="https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">Loop Exercise</a></ul>
 
 https://www.practicepython.org/
+<ul>
+<li><s><a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html">Exercise 1</a></s> | <a href = "exercise20.py">Solution</a>
+<li>Exercise 2
+<li>Exercise 3
+<li>Exercise 4
+<li>Exercise 5
+<li>Exercise 6
+<li>Exercise 7
+<li>Exercise 8
+<li>Exercise 9
+<li>Exercise 10
+<li>Exercise 11
+<li>Exercise 12
+<li>Exercise 13
+<li>Exercise 14
+<li>Exercise 15
+<li>Exercise 16
+<li>Exercise 17
+<li>Exercise 18
+<li>Exercise 19
+<li>Exercise 20
+<li>Exercise 21
+<li>Exercise 22
+<li>Exercise 23
+<li>Exercise 24
+<li>Exercise 25
+<li>Exercise 26
+<li>Exercise 27
+<li>Exercise 28
+<li>Exercise 29
+<li>Exercise 30
+<li>Exercise 31
+<li>Exercise 32
+<li>Exercise 33
+<li>Exercise 34
+<li>Exercise 35
+<li>Exercise 36
+<li>Exercise 37
+<li>Exercise 38
+<li>Exercise 39
+</ul>
 
 <b>FreeCodeCamp</b>
 
 <ul>
 
-<li>Introduction: Why Program?
+<li><s>Introduction: Why Program?
 <li>Introduction: Hardware Architecture
 <li>Introduction: Python as a Language
 <li>Introduction: Elements of Python
@@ -32,7 +73,7 @@ https://www.practicepython.org/
 <li>Iterations: More Patterns
 <li>Strings in Python
 <li>Intermediate Strings
-<li>Reading Files
+<li>Reading Files</s>
 <li>Files as a Sequence
 <li>Python Lists
 <li>Working with Lists
