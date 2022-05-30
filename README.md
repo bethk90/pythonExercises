@@ -7,12 +7,9 @@ Links and resources:
 
 CodeFirstGirls
 
-https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
-<ul><a href="https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/">Loop Exercise</a></ul>
-
 https://www.practicepython.org/
 <ul>
-<li><s><a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html">Exercise 1</a></s> | <a href = "exercise20.py">Solution</a>
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1</a> | <a href = "exercise20.py">Solution</a>
 <li>Exercise 2
 <li>Exercise 3
 <li>Exercise 4
@@ -53,27 +50,29 @@ https://www.practicepython.org/
 <li>Exercise 39
 </ul>
 
+https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
+
 <b>FreeCodeCamp</b>
 
 <ul>
 
-<li><s>Introduction: Why Program?
-<li>Introduction: Hardware Architecture
-<li>Introduction: Python as a Language
-<li>Introduction: Elements of Python
-<li>Variables, Expressions, and Statements
-<li>Intermediate Expressions
-<li>Conditional Execution
-<li>More Conditional Structures
-<li>Python Functions
-<li>Build your own Functions
-<li>Loops and Iterations
-<li>Iterations: Definite Loops
-<li>Iterations: Loop Idioms
-<li>Iterations: More Patterns
-<li>Strings in Python
-<li>Intermediate Strings
-<li>Reading Files</s>
+<li>&#10003; Introduction: Why Program?
+<li>&#10003; Introduction: Hardware Architecture
+<li>&#10003; Introduction: Python as a Language
+<li>&#10003; Introduction: Elements of Python
+<li>&#10003; Variables, Expressions, and Statements
+<li>&#10003; Intermediate Expressions
+<li>&#10003; Conditional Execution
+<li>&#10003; More Conditional Structures | <a href = "https://www.youtube.com/watch?v=crLerB4ZxMI">Exercise</a> | <a href ="exercise4.py">Solution</a> | <a href = "https://www.youtube.com/watch?v=KJN3-7HH6yk">Exercise</a> | <a href ="exercise4.py">Solution</a> 
+<li>&#10003; Python Functions
+<li>&#10003; Build your own Functions | <a href = "https://www.youtube.com/watch?v=ksvGhDsjtpw">Exercise</a> | <a href ="exercise4.py">Solution</a>
+<li>&#10003; Loops and Iterations
+<li>&#10003; Iterations: Definite Loops
+<li>&#10003; Iterations: Loop Idioms
+<li>&#10003; Iterations: More Patterns | <a href = "https://www.youtube.com/watch?v=kjxXZQw0uPg">Exercise</a> | <a href ="exercise7.py">Solution</a>
+<li>&#10003; Strings in Python
+<li>&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a>
+<li>&#10003; Reading Files
 <li>Files as a Sequence
 <li>Python Lists
 <li>Working with Lists
