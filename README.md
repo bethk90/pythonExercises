@@ -20,7 +20,7 @@ CodeFirstGirls
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html>Exercise 5 - List Overlap</a> | <a href = "exercise25.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html>Exercise 6 - String Lists</a> | <a href = "exercise26.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/19/07-list-comprehensions.html>Exercise 7 - List Comprehensions</a> | <a href = "exercise27.py">Solution</a>
-<li>Exercise 8
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/26/08-rock-paper-scissors.html>Exercise 8 - Rock Paper Scissors</a> | <a href = "exercise28.py">Solution</a>
 <li>Exercise 9
 <li>Exercise 10
 <li>Exercise 11
