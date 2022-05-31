@@ -23,7 +23,7 @@ CodeFirstGirls
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/26/08-rock-paper-scissors.html>Exercise 8 - Rock Paper Scissors</a> | <a href = "exercise28.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/04/02/09-guessing-game-one.html>Exercise 9 - Guessing Game One</a> | <a href = "exercise29.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/04/10/10-list-overlap-comprehensions.html>Exercise 10 - List Overlap Comprehensions</a> | <a href = "exercise30.py">Solution</a>
-<li>Exercise 11
+<li>Exercise 11 <A href = https://www.practicepython.org/exercise/2014/04/16/11-check-primality-functions.html>Exercise 11 - Check Primality Functions</a> | <a href = "exercise31.py">Solution</a>
 <li>Exercise 12
 <li>Exercise 13
 <li>Exercise 14
