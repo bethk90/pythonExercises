@@ -11,11 +11,11 @@ CodeFirstGirls
 <li>&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a>
 </ul>
 
-https://www.practicepython.org/
+<a href = "https://www.practicepython.org/">Practice Python</a>
 <ul>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1 - Character Input</a> | <a href = "exercise20.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html>Exercise 2 - Odd or Even</a> | <a href = "exercise22.py">Solution</a>
-<li>Exercise 3
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html>Exercise 3 - List Less Than 10</a> | <a href = "exercise24.py">Solution</a>
 <li>Exercise 4
 <li>Exercise 5
 <li>Exercise 6
@@ -77,9 +77,9 @@ https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 <li>&#10003; Strings in Python
 <li>&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a>
 <li>&#10003; Reading Files
-<li>Files as a Sequence
-<li>Python Lists
-<li>Working with Lists
+<li>&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> || <a href = "exercise18.py>Solution</a>
+<li>&#10003; Python Lists
+<li>&#10003; Working with Lists
 <li>Strings and Lists
 <li>Python Dictionaries
 <li>Dictionaries: Common Applications
