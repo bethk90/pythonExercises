@@ -77,7 +77,7 @@ https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 <li>&#10003; Strings in Python
 <li>&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a>
 <li>&#10003; Reading Files
-<li>&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> || <a href = "exercise18.py>Solution</a>
+<li>&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> || <a href = "exercise18.py">Solution</a>
 <li>&#10003; Python Lists
 <li>&#10003; Working with Lists
 <li>Strings and Lists
