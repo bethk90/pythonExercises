@@ -13,8 +13,8 @@ CodeFirstGirls
 
 https://www.practicepython.org/
 <ul>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1</a> | <a href = "exercise20.py">Solution</a>
-<li>Exercise 2
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1 - Character Input</a> | <a href = "exercise20.py">Solution</a>
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html>Exercise 2 - Odd or Even</a> | <a href = "exercise22.py">Solution</a>
 <li>Exercise 3
 <li>Exercise 4
 <li>Exercise 5
