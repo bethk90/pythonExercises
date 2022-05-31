@@ -17,8 +17,8 @@ CodeFirstGirls
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html>Exercise 2 - Odd or Even</a> | <a href = "exercise22.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html>Exercise 3 - List Less Than 10</a> | <a href = "exercise24.py">Solution</a>
 <li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/26/04-divisors.html>Exercise 4 - Divisors</a> | <a href = "exercise23.py">Solution</a>
-<li>Exercise 5
-<li>Exercise 6
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html>Exercise 5 - List Overlap</a> | <a href = "exercise25.py">Solution</a>
+<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html>Exercise 6 - String Lists</a> | <a href = "exercise26.py">Solution</a>
 <li>Exercise 7
 <li>Exercise 8
 <li>Exercise 9
