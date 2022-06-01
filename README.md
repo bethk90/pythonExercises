@@ -11,20 +11,25 @@ CodeFirstGirls
 <li>&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a>
 </ul>
 
-<a href = "https://www.practicepython.org/">Practice Python</a>
+<a href = "https://www.practicepython.org/">Practice Python</a> Exercises - Completed:
+
+&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1 - Character Input</a> | <a href = "exercise20.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html>Exercise 2 - Odd or Even</a> | <a href = "exercise22.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html>Exercise 3 - List Less Than 10</a> | <a href = "exercise24.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/02/26/04-divisors.html>Exercise 4 - Divisors</a> | <a href = "exercise23.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html>Exercise 5 - List Overlap</a> | <a href = "exercise25.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html>Exercise 6 - String Lists</a> | <a href = "exercise26.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/03/19/07-list-comprehensions.html>Exercise 7 - List Comprehensions</a> | <a href = "exercise27.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/03/26/08-rock-paper-scissors.html>Exercise 8 - Rock Paper Scissors</a> | <a href = "exercise28.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/02/09-guessing-game-one.html>Exercise 9 - Guessing Game One</a> | <a href = "exercise29.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/10/10-list-overlap-comprehensions.html>Exercise 10 - List Overlap Comprehensions</a> | <a href = "exercise30.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/16/11-check-primality-functions.html>Exercise 11 - Check Primality Functions</a> | <a href = "exercise31.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/25/12-list-ends.html>Exercise 12 - List Ends</a> | <a href = "exercise32.py">Solution</a>
+
+To Do:
+
 <ul>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1 - Character Input</a> | <a href = "exercise20.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html>Exercise 2 - Odd or Even</a> | <a href = "exercise22.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html>Exercise 3 - List Less Than 10</a> | <a href = "exercise24.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/02/26/04-divisors.html>Exercise 4 - Divisors</a> | <a href = "exercise23.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html>Exercise 5 - List Overlap</a> | <a href = "exercise25.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html>Exercise 6 - String Lists</a> | <a href = "exercise26.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/19/07-list-comprehensions.html>Exercise 7 - List Comprehensions</a> | <a href = "exercise27.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/03/26/08-rock-paper-scissors.html>Exercise 8 - Rock Paper Scissors</a> | <a href = "exercise28.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/04/02/09-guessing-game-one.html>Exercise 9 - Guessing Game One</a> | <a href = "exercise29.py">Solution</a>
-<li>&#10003; <a href = https://www.practicepython.org/exercise/2014/04/10/10-list-overlap-comprehensions.html>Exercise 10 - List Overlap Comprehensions</a> | <a href = "exercise30.py">Solution</a>
-<li>Exercise 11 <A href = https://www.practicepython.org/exercise/2014/04/16/11-check-primality-functions.html>Exercise 11 - Check Primality Functions</a> | <a href = "exercise31.py">Solution</a>
-<li>Exercise 12
+
 <li>Exercise 13
 <li>Exercise 14
 <li>Exercise 15
@@ -54,33 +59,35 @@ CodeFirstGirls
 <li>Exercise 39
 </ul>
 
-https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
-
 <b>FreeCodeCamp</b>
 
-<ul>
+Done:
 
-<li>&#10003; Introduction: Why Program?
-<li>&#10003; Introduction: Hardware Architecture
-<li>&#10003; Introduction: Python as a Language
-<li>&#10003; Introduction: Elements of Python
-<li>&#10003; Variables, Expressions, and Statements
-<li>&#10003; Intermediate Expressions
-<li>&#10003; Conditional Execution
-<li>&#10003; More Conditional Structures | <a href = "https://www.youtube.com/watch?v=crLerB4ZxMI">Exercise</a> | <a href ="exercise4.py">Solution</a> | <a href = "https://www.youtube.com/watch?v=KJN3-7HH6yk">Exercise</a> | <a href ="exercise4.py">Solution</a> 
-<li>&#10003; Python Functions
-<li>&#10003; Build your own Functions | <a href = "https://www.youtube.com/watch?v=ksvGhDsjtpw">Exercise</a> | <a href ="exercise4.py">Solution</a>
-<li>&#10003; Loops and Iterations
-<li>&#10003; Iterations: Definite Loops
-<li>&#10003; Iterations: Loop Idioms
-<li>&#10003; Iterations: More Patterns | <a href = "https://www.youtube.com/watch?v=kjxXZQw0uPg">Exercise</a> | <a href ="exercise7.py">Solution</a>
-<li>&#10003; Strings in Python
-<li>&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a>
-<li>&#10003; Reading Files
-<li>&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> | <a href = "exercise18.py">Solution</a>
-<li>&#10003; Python Lists
-<li>&#10003; Working with Lists
-<li>Strings and Lists
+&#10003; Introduction: Why Program?<br>
+&#10003; Introduction: Hardware Architecture<br>
+&#10003; Introduction: Python as a Language<br>
+&#10003; Introduction: Elements of Python<br>
+&#10003; Variables, Expressions, and Statements<br>
+&#10003; Intermediate Expressions<br>
+&#10003; Conditional Execution<br>
+&#10003; More Conditional Structures | <a href = "https://www.youtube.com/watch?v=crLerB4ZxMI">Exercise</a> | <a href ="exercise4.py">Solution</a> | <a href = "https://www.youtube.com/watch?v=KJN3-7HH6yk">Exercise</a> | <a href ="exercise4.py">Solution</a><br> 
+&#10003; Python Functions<br>
+&#10003; Build your own Functions | <a href = "https://www.youtube.com/watch?v=ksvGhDsjtpw">Exercise</a> | <a href ="exercise4.py">Solution</a><br>
+&#10003; Loops and Iterations<br>
+&#10003; Iterations: Definite Loops<br>
+&#10003; Iterations: Loop Idioms<br>
+&#10003; Iterations: More Patterns | <a href = "https://www.youtube.com/watch?v=kjxXZQw0uPg">Exercise</a> | <a href ="exercise7.py">Solution</a><br>
+&#10003; Strings in Python<br>
+&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a><br>
+&#10003; Reading Files<br>
+&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> | <a href = "exercise18.py">Solution</a><br>
+&#10003; Python Lists<br>
+&#10003; Working with Lists<br>
+&#10003; Strings and Lists | <a href = "https://www.youtube.com/watch?v=-9TfJF2dwHI">Exercise</a> | <a href = "exercise33.py">Solution</a><br>
+
+To Do:
+
+<uL>
 <li>Python Dictionaries
 <li>Dictionaries: Common Applications
 <li>Dictionaries and Loops
@@ -128,4 +135,6 @@ https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 <li>Polygon Area Calculator
 <li>Probability Calculator
 </ul>
+
+https://pynative.com
 
