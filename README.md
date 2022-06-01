@@ -24,13 +24,13 @@ CodeFirstGirls
 &#10003; <a href = https://www.practicepython.org/exercise/2014/04/02/09-guessing-game-one.html>Exercise 9 - Guessing Game One</a> | <a href = "exercise29.py">Solution</a><br>
 &#10003; <a href = https://www.practicepython.org/exercise/2014/04/10/10-list-overlap-comprehensions.html>Exercise 10 - List Overlap Comprehensions</a> | <a href = "exercise30.py">Solution</a><br>
 &#10003; <a href = https://www.practicepython.org/exercise/2014/04/16/11-check-primality-functions.html>Exercise 11 - Check Primality Functions</a> | <a href = "exercise31.py">Solution</a><br>
-&#10003; <a href = https://www.practicepython.org/exercise/2014/04/25/12-list-ends.html>Exercise 12 - List Ends</a> | <a href = "exercise32.py">Solution</a>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/25/12-list-ends.html>Exercise 12 - List Ends</a> | <a href = "exercise32.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/04/30/13-fibonacci.html>Exercise 13 - Fibonacci</a> | <a href = "exercise34.py">Solution</a><br>
 
 To Do:
 
 <ul>
 
-<li>Exercise 13
 <li>Exercise 14
 <li>Exercise 15
 <li>Exercise 16
