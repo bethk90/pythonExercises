@@ -9,6 +9,8 @@ CodeFirstGirls
 <ul>
 <li>&#10003; <a href = "cfg-homework-week1.py">Week 1 Homework</a>
 <li>&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a>
+<li>&#10003; <a href = "cfg-homework-week3.py">Week 3 Homework</a>
+
 </ul>
 
 <a href = "https://www.practicepython.org/">Practice Python</a> Exercises - Completed:
