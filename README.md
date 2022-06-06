@@ -7,9 +7,9 @@ Links and resources:
 
 CodeFirstGirls
 <ul>
-<li>&#10003; <a href = "cfg-homework-week1.py">Week 1 Homework</a>
-<li>&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a>
-<li>&#10003; <a href = "cfg-homework-week3.py">Week 3 Homework</a>
+&#10003; <a href = "cfg-homework-week1.py">Week 1 Homework</a><br>
+&#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a><br>
+&#10003; <a href = "cfg-homework-week3.py">Week 3 Homework</a><br>
 
 </ul>
 
@@ -86,14 +86,13 @@ Done:
 &#10003; Python Lists<br>
 &#10003; Working with Lists<br>
 &#10003; Strings and Lists | <a href = "https://www.youtube.com/watch?v=-9TfJF2dwHI">Exercise</a> | <a href = "exercise33.py">Solution</a><br>
+&#10003; Python Dictionaries<br>
+&#10003; Dictionaries: Common Applications<br>
+&#10003; Dictionaries and Loops | <a href = "https://www.youtube.com/watch?v=-9TfJF2dwHI">Exercise</a> | <a href = "exercise35.py">Solution</a><br>
 
 To Do:
 
 <uL>
-<li>Python Dictionaries
-<li>Dictionaries: Common Applications
-<li>Dictionaries and Loops
-<li>Dictionaries and Loops
 <li>The Tuples Collection
 <li>Comparing and Sorting Tuples
 <li>Regular Expressions
