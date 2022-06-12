@@ -10,6 +10,8 @@ CodeFirstGirls
 &#10003; <a href = "cfg-homework-week1.py">Week 1 Homework</a><br>
 &#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a><br>
 &#10003; <a href = "cfg-homework-week3.py">Week 3 Homework</a><br>
+&#10003; <a href = "cfg-homework-week4.py">Week 4 Homework</a><br>
+
 
 </ul>
 
