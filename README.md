@@ -63,6 +63,12 @@ To Do:
 <li>Exercise 39
 </ul>
 
+<b>CodeWars</b><br><br>
+<u>6ku</u>
+<ul>
+<li>Highest Scoring Word | <a href = codewars1.py>Solution</a></li>
+</ul>
+
 <b>FreeCodeCamp</b>
 
 Done:
