@@ -70,6 +70,12 @@ To Do:
 <li>Highest Scoring Word | <a href = codewars1.py>Solution</a></li>
 </ul>
 
+<u>7ku</u>
+<ul>
+<li>
+Doubleton | <a href = codewars2.py>Solution</a><br>
+</li></ul>
+
 <b>FreeCodeCamp</b>
 
 Done:
