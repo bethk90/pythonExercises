@@ -97,7 +97,7 @@ Done:
 &#10003; Strings and Lists | <a href = "https://www.youtube.com/watch?v=-9TfJF2dwHI">Exercise</a> | <a href = "exercise33.py">Solution</a><br>
 &#10003; Python Dictionaries<br>
 &#10003; Dictionaries: Common Applications<br>
-&#10003; Dictionaries and Loops | <a href = "https://www.py4e.com/html3/09-dictionaries">Exercises</a> | <a href = "exercise35.py">Solution 1</a> | <a href = "exercise37.py">Solution 2</a>
+&#10003; Dictionaries and Loops | <a href = "https://www.py4e.com/html3/09-dictionaries">Exercises</a> | <a href = "exercise35.py">Solution 1</a> | <a href = "exercise37.py">Solution 2</a> | <a href = "exercise38.py">Solution 3, 4, 5</a>
 
 To Do:
 
