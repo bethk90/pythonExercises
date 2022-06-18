@@ -81,29 +81,29 @@ Done:
 &#10003; Variables, Expressions, and Statements<br>
 &#10003; Intermediate Expressions<br>
 &#10003; Conditional Execution<br>
-&#10003; More Conditional Structures | <a href = "https://www.youtube.com/watch?v=crLerB4ZxMI">Exercise</a> | <a href ="exercise4.py">Solution</a> | <a href = "https://www.youtube.com/watch?v=KJN3-7HH6yk">Exercise</a> | <a href ="exercise4.py">Solution</a><br> 
+&#10003; More Conditional Structures | <a href ="exercise4.py">Exercise 1</a> | <a href ="exercise4.py">Exercise 2</a><br> 
 &#10003; Python Functions<br>
-&#10003; Build your own Functions | <a href = "https://www.youtube.com/watch?v=ksvGhDsjtpw">Exercise</a> | <a href ="exercise4.py">Solution</a><br>
+&#10003; Build your own Functions | <a href ="exercise4.py">Exercise</a><br>
 &#10003; Loops and Iterations<br>
 &#10003; Iterations: Definite Loops<br>
 &#10003; Iterations: Loop Idioms<br>
-&#10003; Iterations: More Patterns | <a href = "https://www.youtube.com/watch?v=kjxXZQw0uPg">Exercise</a> | <a href ="exercise7.py">Solution</a><br>
+&#10003; Iterations: More Patterns | <a href ="exercise7.py">Exercise</a><br>
 &#10003; Strings in Python<br>
-&#10003; Intermediate Strings | <a href = "https://www.youtube.com/watch?v=1bSqHot-KwE">Exercise</a> | <a href ="exercise19.py">Solution</a><br>
+&#10003; Intermediate Strings | <a href ="exercise19.py">Exercise</a><br>
 &#10003; Reading Files<br>
-&#10003; Files as a Sequence | <a href = "https://www.youtube.com/watch?v=il1j4wkte2E">Exercise</a> | <a href = "exercise18.py">Solution</a><br>
+&#10003; Files as a Sequence | <a href = "exercise18.py">Exercise</a><br>
 &#10003; Python Lists<br>
 &#10003; Working with Lists<br>
 &#10003; Strings and Lists | <a href = "https://www.youtube.com/watch?v=-9TfJF2dwHI">Exercise</a> | <a href = "exercise33.py">Solution</a><br>
 &#10003; Python Dictionaries<br>
 &#10003; Dictionaries: Common Applications<br>
-&#10003; Dictionaries and Loops | <a href = "https://www.py4e.com/html3/09-dictionaries">Exercises</a> | <a href = "exercise35.py">Solution 1</a> | <a href = "exercise37.py">Solution 2</a> | <a href = "exercise38.py">Solution 3, 4, 5</a>
+&#10003; Dictionaries and Loops | <a href = "exercise35.py">Exercise 1</a> | <a href = "exercise37.py">Exercise 2</a> | <a href = "exercise38.py">Exercise 3, 4, 5</a><br>
+&#10003; The Tuples Collection<br>
+&#10003; Comparing and Sorting Tuples | <a href = "exercise39.py">Exercise</a><br>
 
 To Do:
 
 <uL>
-<li>The Tuples Collection
-<li>Comparing and Sorting Tuples
 <li>Regular Expressions
 <li>Regular Expressions: Matching and Extracting Data
 <li>Regular Expressions: Practical Applications
