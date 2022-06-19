@@ -63,6 +63,12 @@ To Do:
 <li>Exercise 39
 </ul>
 
+<b><a href = "https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/">Five Mini programming projects</a></b>
+<ol>
+<li>Dice Rolling Simulator <a href = "exercise40.py">Solution</a></li><br>
+
+</ol>
+
 <b>CodeWars</b><br><br>
 <u>6ku</u>
 <ul>
