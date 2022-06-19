@@ -67,6 +67,7 @@ To Do:
 <ol>
 <li>Dice Rolling Simulator <a href = "exercise40.py">Solution</a></li>
 <li>Guess the Number <a href = "exercise41.py">Solution</a></li><br>
+<li>Mad Libs Generator <a href = "exercise41.py">Solution</a></li><br>
 </ol>
 
 <b>CodeWars</b><br><br>
