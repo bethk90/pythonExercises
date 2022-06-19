@@ -11,7 +11,7 @@ CodeFirstGirls
 &#10003; <a href = "cfg-homework-week2.py">Week 2 Homework</a><br>
 &#10003; <a href = "cfg-homework-week3.py">Week 3 Homework</a><br>
 &#10003; <a href = "cfg-homework-week4.py">Week 4 Homework</a><br>
-
+&#10003; <a href = "cfg-homework-week5.py">Week 5 Homework</a><br>
 
 </ul>
 
@@ -36,7 +36,6 @@ To Do:
 
 <ul>
 
-<li>Exercise 14
 <li>Exercise 15
 <li>Exercise 16
 <li>Exercise 17
