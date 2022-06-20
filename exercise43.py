@@ -27,86 +27,102 @@ with actual objects within the game.
 That complexity could be great, if you’d like to make this into a longterm project.
 """
 
-victoria_line = [
-    {
-        'name': 'Walthamstow Central',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'Blackhorse Road',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'Tottenham Hale',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'Seven Sisters',
-        'lines': ['Victoria Line', 'Piccadilly Line']
-    },
-    {
-        'name': 'Highbury & Islington',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'King\'s Cross St Pancras',
-        'lines': ['Victoria Line', 'Piccadilly Line', 'Northern Line', 'Circle Line', 'Metropolitan Line',
-                  'Hammersmith and City Line']
-    },
-    {
-        'name': 'Euston',
-        'lines': ['Victoria Line', 'Northern Line']
-    },
-    {
-        'name': 'Warren Street',
-        'lines': ['Victoria Line', 'Northern Line']
-    },
-    {
-        'name': 'Oxford Circus',
-        'lines': ['Victoria Line', 'Bakerloo Line', 'Central Line']
-    },
-    {
-        'name': 'Green Park',
-        'lines': ['Victoria Line', 'Piccadilly Line', 'Jubilee Line']
-    },
-    {
-        'name': 'Victoria',
-        'lines': ['Victoria Line', 'Circle Line', 'District Line']
-    },
-    {
-        'name': 'Pimlico',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'Vauxhall',
-        'lines': ['Victoria Line']
-    },
-    {
-        'name': 'Stockwell',
-        'lines': ['Victoria Line', 'Northern Line']
-    },
-    {
-        'name': 'Brixton',
-        'lines': ['Victoria Line']
-    }
-]
+tube_map = {
+
+    'name': 'Victoria Line',
+    'stations': [
+        {
+            'name': 'Walthamstow Central',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Blackhorse Road',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Tottenham Hale',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Seven Sisters',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Finsbury Park',
+            'lines': ['Victoria Line', 'Piccadilly Line']
+        },
+        {
+            'name': 'Highbury & Islington',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'King\'s Cross St Pancras',
+            'lines': ['Victoria Line', 'Piccadilly Line', 'Northern Line', 'Circle Line', 'Metropolitan Line',
+                      'Hammersmith and City Line']
+        },
+        {
+            'name': 'Euston',
+            'lines': ['Victoria Line', 'Northern Line']
+        },
+        {
+            'name': 'Warren Street',
+            'lines': ['Victoria Line', 'Northern Line']
+        },
+        {
+            'name': 'Oxford Circus',
+            'lines': ['Victoria Line', 'Bakerloo Line', 'Central Line']
+        },
+        {
+            'name': 'Green Park',
+            'lines': ['Victoria Line', 'Piccadilly Line', 'Jubilee Line']
+        },
+        {
+            'name': 'Victoria',
+            'lines': ['Victoria Line', 'Circle Line', 'District Line']
+        },
+        {
+            'name': 'Pimlico',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Vauxhall',
+            'lines': ['Victoria Line']
+        },
+        {
+            'name': 'Stockwell',
+            'lines': ['Victoria Line', 'Northern Line']
+        },
+        {
+            'name': 'Brixton',
+            'lines': ['Victoria Line']
+        }
+    ]
+}
 
 
-def tube_map():
-    current_line = victoria_line
+def tfl():
+    current_line = input('Which line are you taking? ')
     current_station = input('Which station are you getting on at? ')
-    while True:
-        for station in current_line:
-            if (station['name']) == current_station:
-                print(f'You are at {current_station}.')
-                available_stations = ', '.join(station['lines'])
-                print(f'You can take any of these lines: {available_stations}')
-                direction = input('Which direction are you travelling? ')
-                stops = input('How many stops are you going? ')
-                stationpos = current_line.index(station)
-                if direction == 'Northbound':
-                    current_station = current_line[stationpos - int(stops)]['name']
-                elif direction == 'Southbound':
-                    current_station = current_line[stationpos - int(stops)]['name']
+    for line in tube_map:
+        if current_line == tube_map['name']:
+            while True:
+                for station in tube_map['stations']:
+                    if (station['name']) == current_station:
+                        station_list = list(tube_map['stations'])
+                        print(f'You are at {current_station}.')
+                        available_stations = ', '.join(station['lines'])
+                        print(f'You can take any of these lines: {available_stations}')
+                        direction = input('Which direction are you travelling? ')
+                        stops = input('How many stops are you going? ')
+                        stationpos = station_list.index(station)
+                        print(stationpos)
+                        if direction == 'Northbound':
+                            stationpos -= int(stops)
+                            print(stationpos)
+                            current_station = station_list[stationpos]['name']
+                        elif direction == 'Southbound':
+                            stationpos += int(stops)
+                            print(stationpos)
+                            current_station = station_list[stationpos]['name']
 
-tube_map()
+tfl()
