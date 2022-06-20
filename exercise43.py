@@ -113,43 +113,39 @@ tube_map = [
      }
 ]
 
-
-
 def tfl():
     while True:
         current_line = input('Which line are you taking? ')
-        line_names = [line['name'] for line in tube_map]
-        #Can the line below be simplified?
-        list_line_names = ', '.join([line['name'] for line in tube_map])
-
-        if current_line not in line_names:
-            print(f'That\'s not a line, the options are: {list_line_names}.')
+        lst_line_names = [line['name'] for line in tube_map]
+        str_line_names = ', '.join(lst_line_names)
+        if current_line not in lst_line_names:
+            print(f'That\'s not a line, the options are: {str_line_names}.')
             continue
 
         for line in tube_map:
             if current_line == line['name']:
                 current_station = input('Which station are you getting on at? ')
                 while True:
-                    station_list = list(line['stations'])
-                    if current_station not in station_list:
-                        #This needs fixing to print out the list as a string
-                        print(f'That\'s not a station, the options are: {station_list}.')
-                        break
+                    lst_station_names = [stations['name'] for stations in line['stations']]
+                    str_station_names = ', '.join(lst_station_names)
+                    if current_station not in lst_station_names:
+                        print(f'That\'s not a station, the options are: {str_station_names}.')
+                        current_station = input('Which station are you getting on at? ')
+                        continue
                     else:
                         for station in line['stations']:
                             if (station['name']) == current_station:
-                                #station_list = list(line['stations'])
                                 print(f'You are at {current_station}.')
-                                available_stations = ', '.join(station['lines'])
-                                print(f'You can take any of these lines: {available_stations}')
+                                available_lines = ', '.join(station['lines'])
+                                print(f'You can take any of these lines: {available_lines}')
                                 direction = input('Which direction are you travelling? ')
                                 stops = input('How many stops are you going? ')
-                                stationpos = station_list.index(station)
+                                stationpos = lst_station_names.index(current_station)
                                 if direction == 'Northbound':
                                     stationpos -= int(stops)
-                                    current_station = station_list[stationpos]['name']
+                                    current_station = lst_station_names[stationpos]
                                 if direction == 'Southbound':
                                     stationpos += int(stops)
-                                    current_station = station_list[stationpos]['name']
+                                    current_station = lst_station_names[stationpos]
 
 tfl()
