@@ -109,43 +109,71 @@ tube_map = [
             'name': 'Oakwood',
             'lines': ['Piccadilly Line']
             },
+        {
+            'name': 'Finsbury Park',
+            'lines': ['Piccadilly Line', 'Victoria Line']
+        }
         ]
      }
 ]
 
 def tfl():
+    current_line = ''
+    current_station = ''
+    switch_lines = 'N'
+    lst_line_names = [line['name'] for line in tube_map]
+    str_line_names = ', '.join(lst_line_names)
+
     while True:
-        current_line = input('Which line are you taking? ')
-        lst_line_names = [line['name'] for line in tube_map]
-        str_line_names = ', '.join(lst_line_names)
-        if current_line not in lst_line_names:
+        if current_line == '':
+            current_line = input('Which line are you taking? ')
+        elif current_line not in lst_line_names:
             print(f'That\'s not a line, the options are: {str_line_names}.')
+            current_line = input('Which line are you taking? ')
+            continue
+        else:
+            for line in tube_map:
+                if current_line == line['name']:
+                    if current_station == '':
+                        current_station = input('Which station are you getting on at? ')
+                    while True:
+                        lst_station_names = [stations['name'] for stations in line['stations']]
+                        str_station_names = ', '.join(lst_station_names)
+                        if current_station not in lst_station_names:
+                            print(current_station)
+                            print(f'That\'s not a station, the options are: {str_station_names}.')
+                            current_station = input('Which station are you getting on at? ')
+                        else:
+                            for station in line['stations']:
+                                if (station['name']) == current_station:
+                                    print(f'You are at {current_station}.')
+                                    lst_available_lines = station['lines']
+                                    str_available_lines = ', '.join(station['lines'])
+                                    print(f'You can take any of these lines: {str_available_lines}')
+                                    switch_lines = input('Do you want to change lines? ')
+                                    if switch_lines == 'Y':
+                                        current_line = input('Which line are you taking? ')
+                                        break
+                                    direction = input(f'You are travelling on the {current_line}. Which direction are you going? ')
+                                    stops = input('How many stops are you going? ')
+                                    stationpos = lst_station_names.index(current_station)
+                                    if direction == 'Northbound':
+                                        stationpos -= int(stops)
+                                        current_station = lst_station_names[stationpos]
+                                    if direction == 'Southbound':
+                                        stationpos += int(stops)
+                                        current_station = lst_station_names[stationpos]
+                                continue
+                            else:
+                                continue
+                            break
+                        continue
+                    break
+                else:
+                    continue
+            else:
+                continue
             continue
 
-        for line in tube_map:
-            if current_line == line['name']:
-                current_station = input('Which station are you getting on at? ')
-                while True:
-                    lst_station_names = [stations['name'] for stations in line['stations']]
-                    str_station_names = ', '.join(lst_station_names)
-                    if current_station not in lst_station_names:
-                        print(f'That\'s not a station, the options are: {str_station_names}.')
-                        current_station = input('Which station are you getting on at? ')
-                        continue
-                    else:
-                        for station in line['stations']:
-                            if (station['name']) == current_station:
-                                print(f'You are at {current_station}.')
-                                available_lines = ', '.join(station['lines'])
-                                print(f'You can take any of these lines: {available_lines}')
-                                direction = input('Which direction are you travelling? ')
-                                stops = input('How many stops are you going? ')
-                                stationpos = lst_station_names.index(current_station)
-                                if direction == 'Northbound':
-                                    stationpos -= int(stops)
-                                    current_station = lst_station_names[stationpos]
-                                if direction == 'Southbound':
-                                    stationpos += int(stops)
-                                    current_station = lst_station_names[stationpos]
 
 tfl()
