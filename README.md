@@ -3,9 +3,7 @@
 I will use this to store code snippets and track my progress.
 </i>
 
-Links and resources:
-
-<a href = "exercise43.py">Tube Map Project</a>
+<u>Links and resources:</u>
 
 CodeFirstGirls
 <ul>
@@ -68,8 +66,10 @@ To Do:
 <b><a href = "https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/">Five Mini programming projects</a></b>
 <ol>
 <li>Dice Rolling Simulator <a href = "exercise40.py">Solution</a></li>
-<li>Guess the Number <a href = "exercise41.py">Solution</a></li><br>
-<li>Mad Libs Generator <a href = "exercise41.py">Solution</a></li><br>
+<li>Guess the Number <a href = "exercise41.py">Solution</a></li>
+<li>Mad Libs Generator <a href = "exercise41.py">Solution</a></li>
+<li>Text Based Adventure Game <a href = "exercise43.py">Solution</a></li>
+<li>Hangman Game <a href ="exercise44.py">Solution</a></li>
 </ol>
 
 <b>CodeWars</b><br><br>
