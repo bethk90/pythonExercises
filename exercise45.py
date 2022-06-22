@@ -149,7 +149,7 @@ def tfl():
         else:
             print(f'You are at {current_station}.')
             if count > 0:
-                change_lines = input('Do you want to change lines? Y/N')
+                change_lines = input('Do you want to change lines? Y/N ')
             count += 1
 
         #Check if line input is valid
@@ -166,6 +166,8 @@ def tfl():
         for line in tube_map:
             available_stations = [stations['name'] for stations in line['stations']]
             if line['name'] == current_line and current_station in available_stations:
+                stationpos = available_stations.index(current_station)
+                len_available_stations = len(available_stations)
                 break
             elif line['name'] == current_line and current_station not in available_stations:
                 print(f'{current_station} is not on the {current_line}')
@@ -179,12 +181,20 @@ def tfl():
 
         #Move stations
 
-        stationpos = available_stations.index(current_station)
         if direction == 'Northbound':
             stationpos -= int(stops)
-            current_station = available_stations[stationpos]
+            if stationpos < 0:
+                current_station = available_stations[0]
+                print(f'You\'ve reached the end of the line!')
+            else:
+                current_station = available_stations[stationpos]
+
         if direction == 'Southbound':
             stationpos += int(stops)
-            current_station = available_stations[stationpos]
+            if stationpos > len_available_stations:
+                current_station = available_stations[-1]
+                print(f'You\'ve reached the end of the line!')
+            else:
+                current_station = available_stations[stationpos]
 
 tfl()
