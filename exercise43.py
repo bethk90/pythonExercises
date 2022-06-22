@@ -118,11 +118,11 @@ tube_map = [
 ]
 
 def tfl():
-    current_line = ''
-    current_station = ''
-    switch_lines = 'N'
-    lst_line_names = [line['name'] for line in tube_map]
-    str_line_names = ', '.join(lst_line_names)
+    #current_line = ''
+    #current_station = ''
+    #switch_lines = 'N'
+    #lst_line_names = [line['name'] for line in tube_map]
+    #str_line_names = ', '.join(lst_line_names)
 
     while True:
         if current_line == '':

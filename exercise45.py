@@ -118,23 +118,40 @@ tube_map = [
 ]
 
 def tfl():
-    current_station = input('Which station are you getting on at? ')
-    current_line = input('Which line are you taking? ')
 
-    #Check if station is on line
+    lst_line_names = [line['name'] for line in tube_map]
+    str_line_names = ', '.join(lst_line_names)
+    set_station_names = set()
 
-    for line in tube_map:
-        lst_station_names = [stations['name'] for stations in line['stations']]
-        if line['name'] == current_line and current_station not in lst_station_names:
-            print(f'{current_station} is not on the {current_line}')
+    while True:
+
+        #Check if station input is valid
+
+        current_station = input('Which station are you getting on at? ')
+
+        for line in tube_map:
+            for stations in line['stations']:
+                set_station_names.add(stations['name'])
+
+        if current_station not in set_station_names:
+            str_station_names = ', '.join(set_station_names)
+            print(f'That\'s not a station, the options are: {str_station_names}.')
+            current_station = input('Which station are you getting on at? ')
+
+        #Check if line input is valid
+
+        current_line = input('Which line are you taking? ')
+
+        if current_line not in lst_line_names:
+            print(f'That\'s not a line, the options are: {str_line_names}.')
             current_line = input('Which line are you taking? ')
-            continue
 
-    # #Check if station is on line
-    #
-    # available_stations =
-    #
-    # for line in tube_map:
-    #     if current_station
+        #Check if station is on line
+
+        for line in tube_map:
+            lst_station_names = [stations['name'] for stations in line['stations']]
+            if line['name'] == current_line and current_station not in lst_station_names:
+                print(f'{current_station} is not on the {current_line}')
+                current_line = input('Which line are you taking? ')
 
 tfl()
