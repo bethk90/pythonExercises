@@ -21,20 +21,18 @@ def hangman():
     randomword = words[n][:-1]
     list_letters_in_word = list(randomword)
     while True:
-        user_guess = input('Guess a five-letter word: ')
+        blank = ''
+        user_guess = input('Guess a letter: ')
         guess_count += 1
-        letters_in_guess = set(user_guess)
-        if user_guess ==
-        if user_guess == randomword:
-            print(f'You win! You guessed in {guesscount} guesses.')
-            break
-        else:
-            for letter in list_letters_in_word:
-                if letter in letters_in_guess:
-                    letterpos = list_letters_in_word.index(letter)
-                    blank_list[letterpos] = letter
-                    list_letters_in_word[letterpos] = '-'
+        for letter in list_letters_in_word:
+            if letter == user_guess:
+                letter_pos = list_letters_in_word.index(letter)
+                blank_list[letter_pos] = letter
+                list_letters_in_word[letter_pos] = '-'
         blank = ''.join(blank_list)
         print(blank)
+        if blank == randomword:
+            print(f'You win! You guessed in {guess_count} guesses.')
+            break
 
 hangman()
