@@ -15,6 +15,15 @@ CodeFirstGirls
 
 </ul>
 
+<b><a href = "https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/">Five Mini programming projects</a></b>
+<ol>
+<li>Dice Rolling Simulator <a href = "exercise40.py">Solution</a></li>
+<li>Guess the Number <a href = "exercise41.py">Solution</a></li>
+<li>Mad Libs Generator <a href = "exercise41.py">Solution</a></li>
+<li>Text Based Adventure Game <a href = "exercise45.py">Solution</a></li>
+<li>Hangman Game <a href ="exercise44.py">Solution</a></li>
+</ol>
+
 <a href = "https://www.practicepython.org/">Practice Python</a> Exercises - Completed:
 
 &#10003; <a href = https://www.practicepython.org/exercise/2014/01/29/01-character-input.html>Exercise 1 - Character Input</a> | <a href = "exercise20.py">Solution</a><br>
@@ -62,15 +71,6 @@ To Do:
 <li>Exercise 38
 <li>Exercise 39
 </ul>
-
-<b><a href = "https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/">Five Mini programming projects</a></b>
-<ol>
-<li>Dice Rolling Simulator <a href = "exercise40.py">Solution</a></li>
-<li>Guess the Number <a href = "exercise41.py">Solution</a></li>
-<li>Mad Libs Generator <a href = "exercise41.py">Solution</a></li>
-<li>Text Based Adventure Game <a href = "exercise43.py">Solution</a></li>
-<li>Hangman Game <a href ="exercise44.py">Solution</a></li>
-</ol>
 
 <b>CodeWars</b><br><br>
 <u>6ku</u>

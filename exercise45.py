@@ -149,9 +149,8 @@ def tfl():
         else:
             print(f'You are at {current_station}.')
             if count > 0:
-                change_lines = input('Do you want to change lines? ')
+                change_lines = input('Do you want to change lines? Y/N')
             count += 1
-            print(count)
 
         #Check if line input is valid
 
@@ -162,7 +161,7 @@ def tfl():
             print(f'That\'s not a line, the options are: {str_line_names}.')
             current_line = input('Which line are you taking? ')
 
-            #Check if station is on line
+        #Check if station is on line
 
         for line in tube_map:
             available_stations = [stations['name'] for stations in line['stations']]
@@ -176,9 +175,6 @@ def tfl():
         #Check direction
 
         direction = input(f'You are travelling on the {current_line}. Which direction are you going? ')
-        # change_lines = input('Do you want to change lines? ')
-        # if change_lines == 'Y':
-        #     current_line == input('Which line do you want to take? ')
         stops = input('How many stops are you going? ')
 
         #Move stations
@@ -190,7 +186,5 @@ def tfl():
         if direction == 'Southbound':
             stationpos += int(stops)
             current_station = available_stations[stationpos]
-
-
 
 tfl()
