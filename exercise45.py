@@ -18,8 +18,8 @@ Print
 List
 Integers
 
-The tricky parts here will involve setting up the directions and keeping track of just how far the user has “walked” in the game.
-I suggest sticking to just a few basic descriptions or rooms, perhaps 6 at most.
+The tricky parts here will involve setting up the directions and keeping track of just how far the user has “walked”
+in the game. I suggest sticking to just a few basic descriptions or rooms, perhaps 6 at most.
 This project also continues to build on using userinputted data.
 It can be a relatively basic game, but if you want to build this into a vast, complex word,
 the coding will get substantially harder, especially if you want your user to start interacting
@@ -30,92 +30,93 @@ That complexity could be great, if you’d like to make this into a longterm pro
 tube_map = [
 
     {'name': 'Victoria Line',
-    'stations': [
-        {
-            'name': 'Walthamstow Central',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Blackhorse Road',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Tottenham Hale',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Seven Sisters',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Finsbury Park',
-            'lines': ['Victoria Line', 'Piccadilly Line']
-        },
-        {
-            'name': 'Highbury & Islington',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'King\'s Cross St Pancras',
-            'lines': ['Victoria Line', 'Piccadilly Line', 'Northern Line', 'Circle Line', 'Metropolitan Line',
-                      'Hammersmith and City Line']
-        },
-        {
-            'name': 'Euston',
-            'lines': ['Victoria Line', 'Northern Line']
-        },
-        {
-            'name': 'Warren Street',
-            'lines': ['Victoria Line', 'Northern Line']
-        },
-        {
-            'name': 'Oxford Circus',
-            'lines': ['Victoria Line', 'Bakerloo Line', 'Central Line']
-        },
-        {
-            'name': 'Green Park',
-            'lines': ['Victoria Line', 'Piccadilly Line', 'Jubilee Line']
-        },
-        {
-            'name': 'Victoria',
-            'lines': ['Victoria Line', 'Circle Line', 'District Line']
-        },
-        {
-            'name': 'Pimlico',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Vauxhall',
-            'lines': ['Victoria Line']
-        },
-        {
-            'name': 'Stockwell',
-            'lines': ['Victoria Line', 'Northern Line']
-        },
-        {
-            'name': 'Brixton',
-            'lines': ['Victoria Line']
-        }
-    ]
+     'stations': [
+         {
+             'name': 'Walthamstow Central',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Blackhorse Road',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Tottenham Hale',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Seven Sisters',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Finsbury Park',
+             'lines': ['Victoria Line', 'Piccadilly Line']
+         },
+         {
+             'name': 'Highbury & Islington',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'King\'s Cross St Pancras',
+             'lines': ['Victoria Line', 'Piccadilly Line', 'Northern Line', 'Circle Line', 'Metropolitan Line',
+                       'Hammersmith and City Line']
+         },
+         {
+             'name': 'Euston',
+             'lines': ['Victoria Line', 'Northern Line']
+         },
+         {
+             'name': 'Warren Street',
+             'lines': ['Victoria Line', 'Northern Line']
+         },
+         {
+             'name': 'Oxford Circus',
+             'lines': ['Victoria Line', 'Bakerloo Line', 'Central Line']
+         },
+         {
+             'name': 'Green Park',
+             'lines': ['Victoria Line', 'Piccadilly Line', 'Jubilee Line']
+         },
+         {
+             'name': 'Victoria',
+             'lines': ['Victoria Line', 'Circle Line', 'District Line']
+         },
+         {
+             'name': 'Pimlico',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Vauxhall',
+             'lines': ['Victoria Line']
+         },
+         {
+             'name': 'Stockwell',
+             'lines': ['Victoria Line', 'Northern Line']
+         },
+         {
+             'name': 'Brixton',
+             'lines': ['Victoria Line']
+         }
+     ]
      },
 
     {'name': 'Piccadilly Line',
-    'stations': [
-        {
-            'name': 'Cockfosters',
-            'lines': ['Piccadilly Line']
-        },
-        {
-            'name': 'Oakwood',
-            'lines': ['Piccadilly Line']
-            },
-        {
-            'name': 'Finsbury Park',
-            'lines': ['Piccadilly Line', 'Victoria Line']
-        }
-        ]
+     'stations': [
+         {
+             'name': 'Cockfosters',
+             'lines': ['Piccadilly Line']
+         },
+         {
+             'name': 'Oakwood',
+             'lines': ['Piccadilly Line']
+         },
+         {
+             'name': 'Finsbury Park',
+             'lines': ['Piccadilly Line', 'Victoria Line']
+         }
+     ]
      }
 ]
+
 
 def tfl():
     current_station = ''
@@ -138,7 +139,7 @@ def tfl():
         if current_station == '':
             current_station = input('Which station are you getting on at? ')
 
-        #Check if station input is valid
+        # Check if station input is valid
 
         if current_station not in set_station_names:
 
@@ -152,7 +153,7 @@ def tfl():
                 change_lines = input('Do you want to change lines? Y/N ')
             count += 1
 
-        #Check if line input is valid
+        # Check if line input is valid
 
         if change_lines == 'Y' or current_line == '':
             current_line = input('Which line are you taking? ')
@@ -161,7 +162,7 @@ def tfl():
             print(f'That\'s not a line, the options are: {str_line_names}.')
             current_line = input('Which line are you taking? ')
 
-        #Check if station is on line
+        # Check if station is on the line
 
         for line in tube_map:
             available_stations = [stations['name'] for stations in line['stations']]
@@ -174,12 +175,12 @@ def tfl():
                 current_line = input('Which line are you taking? ')
                 continue
 
-        #Check direction
+        # Check direction
 
         direction = input(f'You are travelling on the {current_line}. Which direction are you going? ')
         stops = input('How many stops are you going? ')
 
-        #Move stations
+        # Move stations
 
         if direction == 'Northbound':
             stationpos -= int(stops)
@@ -196,5 +197,6 @@ def tfl():
                 print(f'You\'ve reached the end of the line!')
             else:
                 current_station = available_stations[stationpos]
+
 
 tfl()
