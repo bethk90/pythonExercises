@@ -13,6 +13,8 @@ CodeFirstGirls
 &#10003; <a href = "cfg-homework-week4.py">Week 4 Homework</a><br>
 &#10003; <a href = "cfg-homework-week5.py">Week 5 Homework</a><br>
 
+&#10003; <a href = "cfg-finalproject.py">Final Project - Required tasks</a><br>
+
 </ul>
 
 <b><a href = "https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/">Five Mini programming projects</a></b>
