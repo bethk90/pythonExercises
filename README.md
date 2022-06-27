@@ -76,6 +76,11 @@ To Do:
 </ul>
 
 <b>CodeWars</b><br><br>
+<u>5ku</u>
+<ul>
+<li>Rot13 | <a href = codewars4.py>Solution</a></li>
+
+</ul>
 <u>6ku</u>
 <ul>
 <li>Highest Scoring Word | <a href = codewars1.py>Solution</a></li>
@@ -83,9 +88,9 @@ To Do:
 
 <u>7ku</u>
 <ul>
-<li>
-Doubleton | <a href = codewars2.py>Solution</a><br>
-</li></ul>
+<li>Doubleton | <a href = codewars2.py>Solution</a></li>
+<li>Get the Middle Character | <a href = codewars2.py>Solution</a></li>
+</ul>
 
 <b>FreeCodeCamp</b>
 
