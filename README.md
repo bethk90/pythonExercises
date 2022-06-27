@@ -14,7 +14,7 @@ CodeFirstGirls
 &#10003; <a href = "cfg-homework-week5.py">Week 5 Homework</a><br>
 
 &#10003; <a href = "https://github.com/bethk90/cfgFinalProject">Final Project - Extension</a><br>
-&#10003; <a href = "cfg-finalproject.py">Final Project - Required tasks</a><br>
+&#10003; <a href = "cfg-finalproject-1.py">Final Project - Required tasks</a><br>
 
 </ul>
 
