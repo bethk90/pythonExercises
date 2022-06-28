@@ -79,6 +79,7 @@ To Do:
 <u>5ku</u>
 <ul>
 <li>Rot13 | <a href = codewars4.py>Solution</a></li>
+<li>Find the Unique Number | <a href = codewars5.py>Solution</a></li>
 
 </ul>
 <u>6ku</u>
