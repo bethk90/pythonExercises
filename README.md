@@ -85,6 +85,8 @@ To Do:
 <u>6ku</u>
 <ul>
 <li>Highest Scoring Word | <a href = codewars1.py>Solution</a></li>
+<li>Two Sum | <a href = codewars6.py>Solution</a></li>
+
 </ul>
 
 <u>7ku</u>
