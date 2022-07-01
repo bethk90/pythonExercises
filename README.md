@@ -43,6 +43,7 @@ CodeFirstGirls
 &#10003; <a href = https://www.practicepython.org/exercise/2014/04/25/12-list-ends.html>Exercise 12 - List Ends</a> | <a href = "exercise32.py">Solution</a><br>
 &#10003; <a href = https://www.practicepython.org/exercise/2014/04/30/13-fibonacci.html>Exercise 13 - Fibonacci</a> | <a href = "exercise34.py">Solution</a><br>
 &#10003; <a href = https://www.practicepython.org/exercise/2014/05/15/14-list-remove-duplicates.html>Exercise 14 - Remove Duplicates</a> | <a href = "exercise36.py">Solution</a><br>
+&#10003; <a href = https://www.practicepython.org/exercise/2014/05/21/15-reverse-word-order.html>Exercise 15 - Reverse Word Order</a> | <a href = "exercise46.py">Solution</a><br>
 
 To Do:
 
