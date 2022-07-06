@@ -49,7 +49,6 @@ To Do:
 
 <ul>
 
-<li>Exercise 15
 <li>Exercise 16
 <li>Exercise 17
 <li>Exercise 18
@@ -76,6 +75,8 @@ To Do:
 <li>Exercise 39
 </ul>
 
+https://cfgremotemayck.slack.com/archives/C039R9PLN2V/p1657136029132669
+
 <b>CodeWars</b><br><br>
 <u>5ku</u>
 <ul>
@@ -94,6 +95,8 @@ To Do:
 <ul>
 <li>Doubleton | <a href = codewars2.py>Solution</a></li>
 <li>Get the Middle Character | <a href = codewars2.py>Solution</a></li>
+<li>Count the Divisors | <a href = codewars7.py>Solution</a></li>
+
 </ul>
 
 <b>FreeCodeCamp</b>
