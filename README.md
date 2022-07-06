@@ -89,6 +89,8 @@ https://www.pygame.org/news
 <ul>
 <li>Highest Scoring Word | <a href = codewars1.py>Solution</a></li>
 <li>Two Sum | <a href = codewars6.py>Solution</a></li>
+<li>Delete occurrences of an element if it occurs more than n times
+ | <a href = codewars6.py>Solution</a></li>
 
 </ul>
 
