@@ -75,7 +75,8 @@ To Do:
 <li>Exercise 39
 </ul>
 
-https://cfgremotemayck.slack.com/archives/C039R9PLN2V/p1657136029132669
+https://www.freecodecamp.org/news/python-projects-for-beginners/
+https://www.pygame.org/news
 
 <b>CodeWars</b><br><br>
 <u>5ku</u>
